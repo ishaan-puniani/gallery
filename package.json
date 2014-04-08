@@ -1,10 +1,32 @@
 {
+  "name": "Image_Gallery",
+  "version": "0.1",
+  "description": "Image_Gallery",
+  "keywords": [
+    "CodeRower",
+    "Node.js",
+    "MongoDB",
+    "Image Gallery"
+  ],
+  "author": {
+    "name": "Ishaan Puniani",
+    "email": "ishaan.puniani@gmail.com	",
+    "url":  "http://www.coderower.com/"
+  },
+  "homepage": "http://www.coderower.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ishaan2990/gallery"
+  },
+
   "engines": {
     "node": ">= 0.6.0",
     "npm": ">= 1.0.0"
   },
- "dependencies": {
-      "mongodb" : "> 1.1.10" 
+
+  "dependencies": {
+  	  "mongodb" : "> 1.1.10" ,
+      "express" : ">3.0.0rc4"
   },
   "devDependencies": {},
   "bundleDependencies": [],
